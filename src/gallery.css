@@ -1,0 +1,18 @@
+.image-gallery-slides {
+    text-align: center;
+    }
+    .image-gallery-slide {
+    background: #000;
+    }
+    .image-gallery-slide img{
+    width: auto;
+    height: 400px;
+    }
+    /*
+    
+    Change the heigh back to auto when in fullscreen otherwise it will only be *not using browser fullscreen
+    */
+    .image-gallery-content.fullscreen .image-gallery-slide img{
+    height: 100%;
+    }
+    

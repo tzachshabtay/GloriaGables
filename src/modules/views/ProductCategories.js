@@ -4,6 +4,9 @@ import { withStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Container from '@material-ui/core/Container';
 import Typography from '../components/Typography';
+import { Link } from 'react-router-dom';
+
+const AdapterLink = React.forwardRef((props, ref) => <Link innerRef={ref} {...props} />);
 
 const styles = theme => ({
   root: {
@@ -92,36 +95,42 @@ function ProductCategories(props) {
         '/static/gloria-gables.jpg',
       title: 'Gallery',
       width: '40%',
+      to: 'gallery',
     },
     {
       url:
         '/static/bulletin.jpeg',
       title: 'News',
       width: '20%',
+      to: 'news',
     },
     {
       url:
         'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400&q=80',
       title: 'Events',
       width: '40%',
+      to: 'events',
     },
     {
       url:
         '/static/lincoln-park.png',
       title: 'Lincoln Park',
       width: '38%',
+      to: 'park',
     },
     {
       url:
         '/static/kensington.jpg',
       title: 'The Neighborhood',
       width: '38%',
+      to: 'neighborhood',
     },
     {
       url:
         '/static/history.jpeg',
       title: 'History',
       width: '24%',
+      to: 'history',
     }
   ];
 
@@ -138,6 +147,7 @@ function ProductCategories(props) {
             style={{
               width: image.width,
             }}
+            component={AdapterLink} to={image.to}
           >
             <div
               className={classes.imageSrc}
