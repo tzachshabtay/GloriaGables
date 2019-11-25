@@ -42,7 +42,9 @@ function AppAppBar(props) {
     <div>
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
-          <div className={classes.left} />
+          <div className={classes.left}>
+            131 Kensington Ave, Jersey City, NJ, 07304
+          </div>
           <Link
             variant="h6"
             underline="none"
@@ -50,7 +52,7 @@ function AppAppBar(props) {
             className={classes.title}
             href="/premium-themes/onepirate/"
           >
-            {'onepirate'}
+            {'Gloria Gables'}
           </Link>
           <div className={classes.right}>
             <Link
