@@ -92,14 +92,14 @@ function ProductCategories(props) {
   const images = [
     {
       url:
-        '/static/gloria-gables.jpg',
+        './static/gloria-gables.jpg',
       title: 'Gallery',
       width: '40%',
       to: 'gallery',
     },
     {
       url:
-        '/static/bulletin.jpeg',
+        './static/bulletin.jpeg',
       title: 'News',
       width: '20%',
       to: 'news',
@@ -113,21 +113,21 @@ function ProductCategories(props) {
     },
     {
       url:
-        '/static/lincoln-park.png',
+        './static/lincoln-park.png',
       title: 'Lincoln Park',
       width: '38%',
       to: 'park',
     },
     {
       url:
-        '/static/kensington.jpg',
+        './static/kensington.jpg',
       title: 'The Neighborhood',
       width: '38%',
       to: 'neighborhood',
     },
     {
       url:
-        '/static/history.jpeg',
+        './static/history.jpeg',
       title: 'History',
       width: '24%',
       to: 'history',

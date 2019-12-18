@@ -9,16 +9,16 @@ import './gallery.css';
 
 const images = [
     {
-        original: '/static/front.jpeg',
-        thumbnail: '/static/front.jpeg',
+        original: './static/front.jpeg',
+        thumbnail: './static/front.jpeg',
     },
     {
-        original: '/static/lobby.jpeg',
-        thumbnail: '/static/lobby.jpeg',
+        original: './static/lobby.jpeg',
+        thumbnail: './static/lobby.jpeg',
     },
     {
-        original: '/static/lobby2.jpeg',
-        thumbnail: '/static/lobby2.jpeg',
+        original: './static/lobby2.jpeg',
+        thumbnail: './static/lobby2.jpeg',
     },
 ];
 

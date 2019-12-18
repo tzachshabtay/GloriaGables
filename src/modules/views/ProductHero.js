@@ -5,7 +5,7 @@ import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
 
 const backgroundImage =
-  '/static/gloria-gables.jpg';
+  './static/gloria-gables.jpg';
 
 const styles = theme => ({
   background: {

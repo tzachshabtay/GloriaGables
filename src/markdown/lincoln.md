@@ -2,4 +2,4 @@
 
 Welcome to Lincoln Park.
 
-![Lincoln Park]('/static/lincoln-park.png')
+![Lincoln Park]('./static/lincoln-park.png')
