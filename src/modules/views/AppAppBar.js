@@ -35,6 +35,30 @@ const styles = theme => ({
   },
 });
 
+function renderSignIn(props) {
+  return null;
+  /*const { classes } = props;
+  return (<div className={classes.right}>
+    <Link
+      color="inherit"
+      variant="h6"
+      underline="none"
+      className={classes.rightLink}
+      href="/sign-in"
+    >
+      {'Sign In'}
+    </Link>
+    <Link
+      variant="h6"
+      underline="none"
+      className={clsx(classes.rightLink, classes.linkSecondary)}
+      href="/sign-up"
+    >
+      {'Sign Up'}
+    </Link>
+  </div>);*/
+}
+
 function AppAppBar(props) {
   const { classes } = props;
 
@@ -54,25 +78,7 @@ function AppAppBar(props) {
           >
             {'Gloria Gables'}
           </Link>
-          <div className={classes.right}>
-            <Link
-              color="inherit"
-              variant="h6"
-              underline="none"
-              className={classes.rightLink}
-              href="/sign-in"
-            >
-              {'Sign In'}
-            </Link>
-            <Link
-              variant="h6"
-              underline="none"
-              className={clsx(classes.rightLink, classes.linkSecondary)}
-              href="/sign-up"
-            >
-              {'Sign Up'}
-            </Link>
-          </div>
+          {renderSignIn()}
         </Toolbar>
       </AppBar>
       <div className={classes.placeholder} />
