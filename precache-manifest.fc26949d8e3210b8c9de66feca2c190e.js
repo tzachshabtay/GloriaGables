@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af97d813c8ddbe93b762878d2fc02ba9",
+    "revision": "75fdf9535088b35a840747f1ec33b707",
     "url": "/GloriaGables/index.html"
   },
   {
-    "revision": "0a4e0a3ec611db3ab43b",
+    "revision": "3cf7ae7774c98c224528",
     "url": "/GloriaGables/static/css/2.62027c08.chunk.css"
   },
   {
-    "revision": "5e0820a4e4ac19071540",
+    "revision": "ccd2ec54a0836f5a25b6",
     "url": "/GloriaGables/static/css/main.1f85ac99.chunk.css"
   },
   {
-    "revision": "0a4e0a3ec611db3ab43b",
-    "url": "/GloriaGables/static/js/2.58a77d66.chunk.js"
+    "revision": "3cf7ae7774c98c224528",
+    "url": "/GloriaGables/static/js/2.dd161528.chunk.js"
   },
   {
-    "revision": "5e0820a4e4ac19071540",
-    "url": "/GloriaGables/static/js/main.209ac8d8.chunk.js"
+    "revision": "ccd2ec54a0836f5a25b6",
+    "url": "/GloriaGables/static/js/main.e19f4f98.chunk.js"
   },
   {
     "revision": "bc6ca34ed7e413b7632d",

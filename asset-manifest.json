@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GloriaGables/static/css/main.1f85ac99.chunk.css",
-    "main.js": "/GloriaGables/static/js/main.209ac8d8.chunk.js",
-    "main.js.map": "/GloriaGables/static/js/main.209ac8d8.chunk.js.map",
+    "main.js": "/GloriaGables/static/js/main.e19f4f98.chunk.js",
+    "main.js.map": "/GloriaGables/static/js/main.e19f4f98.chunk.js.map",
     "runtime-main.js": "/GloriaGables/static/js/runtime-main.9a4beedc.js",
     "runtime-main.js.map": "/GloriaGables/static/js/runtime-main.9a4beedc.js.map",
     "static/css/2.62027c08.chunk.css": "/GloriaGables/static/css/2.62027c08.chunk.css",
-    "static/js/2.58a77d66.chunk.js": "/GloriaGables/static/js/2.58a77d66.chunk.js",
-    "static/js/2.58a77d66.chunk.js.map": "/GloriaGables/static/js/2.58a77d66.chunk.js.map",
+    "static/js/2.dd161528.chunk.js": "/GloriaGables/static/js/2.dd161528.chunk.js",
+    "static/js/2.dd161528.chunk.js.map": "/GloriaGables/static/js/2.dd161528.chunk.js.map",
     "index.html": "/GloriaGables/index.html",
-    "precache-manifest.3de416ecb5614bf3191a0d822082f761.js": "/GloriaGables/precache-manifest.3de416ecb5614bf3191a0d822082f761.js",
+    "precache-manifest.fc26949d8e3210b8c9de66feca2c190e.js": "/GloriaGables/precache-manifest.fc26949d8e3210b8c9de66feca2c190e.js",
     "service-worker.js": "/GloriaGables/service-worker.js",
     "static/css/2.62027c08.chunk.css.map": "/GloriaGables/static/css/2.62027c08.chunk.css.map",
     "static/css/main.1f85ac99.chunk.css.map": "/GloriaGables/static/css/main.1f85ac99.chunk.css.map",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.9a4beedc.js",
     "static/css/2.62027c08.chunk.css",
-    "static/js/2.58a77d66.chunk.js",
+    "static/js/2.dd161528.chunk.js",
     "static/css/main.1f85ac99.chunk.css",
-    "static/js/main.209ac8d8.chunk.js"
+    "static/js/main.e19f4f98.chunk.js"
   ]
 }
