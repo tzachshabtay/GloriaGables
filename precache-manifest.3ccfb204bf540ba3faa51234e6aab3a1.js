@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf4879eb3988d2ac106e6ad295e2c7d1",
+    "revision": "4732604ed23edfb6393b01a0165ff057",
     "url": "/GloriaGables/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GloriaGables/static/css/2.62027c08.chunk.css"
   },
   {
-    "revision": "ffef42b50b42d162e496",
+    "revision": "89359a37af744a86e83d",
     "url": "/GloriaGables/static/css/main.1f85ac99.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GloriaGables/static/js/2.58a77d66.chunk.js"
   },
   {
-    "revision": "ffef42b50b42d162e496",
-    "url": "/GloriaGables/static/js/main.32e6ad5e.chunk.js"
+    "revision": "89359a37af744a86e83d",
+    "url": "/GloriaGables/static/js/main.d724cf48.chunk.js"
   },
   {
     "revision": "bc6ca34ed7e413b7632d",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GloriaGables/static/media/history.d07f471e.md"
   },
   {
-    "revision": "1d82d0659088beca7041248c8578f2c5",
-    "url": "/GloriaGables/static/media/lincoln.1d82d065.md"
+    "revision": "a5bed1fc1430b18490bde374aa1f9035",
+    "url": "/GloriaGables/static/media/lincoln.a5bed1fc.md"
   },
   {
     "revision": "9b82265d87940efe88ce2d147baade89",
