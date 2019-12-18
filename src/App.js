@@ -7,6 +7,10 @@ import {
 import Home from './Home';
 import Gallery from './Gallery';
 import Lincoln from './Lincoln';
+import News from './News';
+import Events from './Events';
+import History from './History';
+import WestSide from './WestSide';
 import Privacy from './Privacy';
 import ScrollToTop from './modules/scroll_to_top';
 
@@ -23,6 +27,18 @@ function App() {
           </Route>
           <Route path="/park">
             <Lincoln />
+          </Route>
+          <Route path="/news">
+            <News />
+          </Route>
+          <Route path="/events">
+            <Events />
+          </Route>
+          <Route path="/history">
+            <History />
+          </Route>
+          <Route path="/neighborhood">
+            <WestSide />
           </Route>
           <Route path="/privacy">
             <Privacy />
