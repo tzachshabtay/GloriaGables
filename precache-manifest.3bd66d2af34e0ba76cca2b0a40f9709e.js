@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "629fc120b3cf4e8ba3dfd09b7c492667",
+    "revision": "bf4879eb3988d2ac106e6ad295e2c7d1",
     "url": "/GloriaGables/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GloriaGables/static/css/2.62027c08.chunk.css"
   },
   {
-    "revision": "1f17ea0d97ce5702947f",
+    "revision": "ffef42b50b42d162e496",
     "url": "/GloriaGables/static/css/main.1f85ac99.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GloriaGables/static/js/2.58a77d66.chunk.js"
   },
   {
-    "revision": "1f17ea0d97ce5702947f",
-    "url": "/GloriaGables/static/js/main.2b30f54b.chunk.js"
+    "revision": "ffef42b50b42d162e496",
+    "url": "/GloriaGables/static/js/main.32e6ad5e.chunk.js"
   },
   {
     "revision": "bc6ca34ed7e413b7632d",
