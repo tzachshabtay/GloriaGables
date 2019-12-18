@@ -50,7 +50,9 @@ class Markdown extends Component {
 
   render() {
     return (
-      <InnerMarkdown>{this.state.md}</InnerMarkdown>
+      <div style={{ padding: 20 }}>
+        <InnerMarkdown>{this.state.md}</InnerMarkdown>
+      </div>
     )
   }
 }
