@@ -3,8 +3,11 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { withStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
+import { Link as RouterLink } from 'react-router-dom';
 import AppBar from '../components/AppBar';
 import Toolbar, { styles as toolbarStyles } from '../components/Toolbar';
+
+const AdapterLink = React.forwardRef((props, ref) => <RouterLink innerRef={ref} {...props} />);
 
 const styles = theme => ({
   title: {
@@ -74,7 +77,7 @@ function AppAppBar(props) {
             underline="none"
             color="inherit"
             className={classes.title}
-            href="/"
+            component={AdapterLink} to={"/"}
           >
             {'Gloria Gables'}
           </Link>

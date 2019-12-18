@@ -16,7 +16,7 @@ import ScrollToTop from './modules/scroll_to_top';
 
 function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <ScrollToTop />
       <div>
         {/* A <Switch> looks through its children <Route>s and
