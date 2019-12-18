@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactMarkdown from 'markdown-to-jsx';
+import React, { Component } from 'react';
+import ReactMarkdown from 'react-markdown';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
@@ -28,8 +28,31 @@ const options = {
   },
 };
 
-function Markdown(props) {
-  return <ReactMarkdown options={options} {...props} />;
+function InnerMarkdown(props) {
+  return <ReactMarkdown options={options} {...props} transformImageUri={uri => {
+    uri = uri.slice(1, -1)
+    return uri
+  }} />;
+}
+
+class Markdown extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = { md: null }
+  }
+
+  async componentDidMount() {
+    const response = await fetch(this.props.md);
+    const text = await response.text();
+    this.setState({ md: text });
+  }
+
+  render() {
+    return (
+      <InnerMarkdown>{this.state.md}</InnerMarkdown>
+    )
+  }
 }
 
 export default Markdown;

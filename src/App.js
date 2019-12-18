@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import Home from './Home';
 import Gallery from './Gallery';
+import Lincoln from './Lincoln';
+import Privacy from './Privacy';
 import ScrollToTop from './modules/scroll_to_top';
 
 function App() {
@@ -18,6 +20,12 @@ function App() {
         <Switch>
           <Route path="/gallery">
             <Gallery />
+          </Route>
+          <Route path="/park">
+            <Lincoln />
+          </Route>
+          <Route path="/privacy">
+            <Privacy />
           </Route>
           <Route path="/">
             <Home />
