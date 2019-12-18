@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/GloriaGables/static/css/main.1f85ac99.chunk.css",
+    "main.js": "/GloriaGables/static/js/main.2b30f54b.chunk.js",
+    "main.js.map": "/GloriaGables/static/js/main.2b30f54b.chunk.js.map",
+    "runtime-main.js": "/GloriaGables/static/js/runtime-main.9a4beedc.js",
+    "runtime-main.js.map": "/GloriaGables/static/js/runtime-main.9a4beedc.js.map",
+    "static/css/2.62027c08.chunk.css": "/GloriaGables/static/css/2.62027c08.chunk.css",
+    "static/js/2.58a77d66.chunk.js": "/GloriaGables/static/js/2.58a77d66.chunk.js",
+    "static/js/2.58a77d66.chunk.js.map": "/GloriaGables/static/js/2.58a77d66.chunk.js.map",
+    "index.html": "/GloriaGables/index.html",
+    "precache-manifest.b98a52e4230e490fb08becc7c3a0ffa2.js": "/GloriaGables/precache-manifest.b98a52e4230e490fb08becc7c3a0ffa2.js",
+    "service-worker.js": "/GloriaGables/service-worker.js",
+    "static/css/2.62027c08.chunk.css.map": "/GloriaGables/static/css/2.62027c08.chunk.css.map",
+    "static/css/main.1f85ac99.chunk.css.map": "/GloriaGables/static/css/main.1f85ac99.chunk.css.map",
+    "static/media/events.md": "/GloriaGables/static/media/events.facaadc7.md",
+    "static/media/history.md": "/GloriaGables/static/media/history.d07f471e.md",
+    "static/media/lincoln.md": "/GloriaGables/static/media/lincoln.1d82d065.md",
+    "static/media/news.md": "/GloriaGables/static/media/news.9b82265d.md",
+    "static/media/privacy.md": "/GloriaGables/static/media/privacy.bb49d4d5.md",
+    "static/media/west-side.md": "/GloriaGables/static/media/west-side.df4267fb.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a4beedc.js",
+    "static/css/2.62027c08.chunk.css",
+    "static/js/2.58a77d66.chunk.js",
+    "static/css/main.1f85ac99.chunk.css",
+    "static/js/main.2b30f54b.chunk.js"
+  ]
+}
